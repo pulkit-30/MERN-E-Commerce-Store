@@ -6,13 +6,13 @@
 
 ## Features
 
-[x] User Authentication
-[x] Email Verification
-[x] Resend Verification Code
-[x] Forget Password
-[x] Cart
-[x] Checkout System
-[x] Online Payment System
+- User Authentication
+- **Email Verification**
+- Resend Verification Code
+- Forget Password
+- Cart
+- Checkout System
+- **Online Payment System**
 
 ---
 
