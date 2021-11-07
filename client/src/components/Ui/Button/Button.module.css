@@ -1,0 +1,30 @@
+.Button {
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border: 2px solid white;
+  font-family: var(--secondary-font);
+  font-size: 17px;
+  color: var(--light-color);
+  background-color: var(--primary-color);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: 0.2s box-shadow;
+  -webkit-transition: 0.2s box-shadow;
+  -moz-transition: 0.2s box-shadow;
+  -ms-transition: 0.2s box-shadow;
+  -o-transition: 0.2s box-shadow;
+}
+.Button:hover {
+  box-shadow: 0px 0px 5px var(--secondary-color);
+  transform: scale(1.01);
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+}

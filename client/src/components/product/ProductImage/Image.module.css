@@ -1,0 +1,9 @@
+.Image {
+  width: 100%;
+
+  overflow: hidden;
+}
+.Image img {
+  height: 170px;
+  object-fit: cover;
+}

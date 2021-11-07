@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Philosopher:wght@700&family=Roboto:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #2a2438;
+  --secondary-color: #352f44;
+  --ternary-color: #5c5470;
+  --light-color: #dbd8e3;
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "EB Garamond", serif;
+  --ternary-font: "Philosopher", sans-serif;
+}
+
+html {
+  overflow-x: hidden !important;
+}
+body {
+  overflow-x: hidden;
+  color: var(--primary-color);
+  width: 100vw;
+  font-family: var(--primary-font);
+  font-size: 15px;
+  text-align: center;
+}

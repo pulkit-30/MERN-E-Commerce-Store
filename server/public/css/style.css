@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  overflow: hidden;
+}
+body {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  background-attachment: fixed;
+  background-color: #305dbf;
+}
+section {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 80%;
+  text-align: center;
+  z-index: -1;
+}

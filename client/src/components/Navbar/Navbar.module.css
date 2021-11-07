@@ -1,0 +1,35 @@
+.Navbar {
+  width: 100vw;
+  background-color: var(--primary-color);
+}
+.Logo {
+  width: 40%;
+  height: 80px;
+}
+.Main {
+  width: 60%;
+  height: 80px;
+}
+.Menu_Toggle_btn {
+  color: white !important;
+  position: absolute !important;
+  right: 0;
+}
+.Sidebar {
+  transform: translateX(100vw);
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 60vw !important;
+  background-color: var(--secondary-color);
+  -webkit-transform: translateX(100vw);
+  -moz-transform: translateX(100vw);
+  -ms-transform: translateX(100vw);
+  -o-transform: translateX(100vw);
+  transition: 0.2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}

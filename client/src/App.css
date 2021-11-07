@@ -1,0 +1,15 @@
+h1 {
+  font-family: var(--ternary-font);
+  font-size: 40px;
+  margin: 10px auto;
+}
+.Link {
+  text-decoration: none;
+}
+.Section {
+  flex-direction: column !important;
+}
+.Bottom {
+  position: absolute;
+  bottom: 10px;
+}

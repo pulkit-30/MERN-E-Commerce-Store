@@ -1,0 +1,9 @@
+.Form {
+  width: 100%;
+  height: 100%;
+}
+.Input {
+  width: 80%;
+  height: 30px;
+  margin: 10px 0px;
+}

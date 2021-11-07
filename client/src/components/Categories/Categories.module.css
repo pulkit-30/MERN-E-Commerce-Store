@@ -1,0 +1,29 @@
+.Categories {
+  margin: 30px 0px;
+  width: 98%;
+  height: fit-content;
+  flex-direction: row !important;
+  justify-content: center;
+  align-items: flex-start;
+}
+.Categories_Card {
+  position: relative;
+  width: 300px;
+  height: 500px;
+  overflow: hidden;
+  margin: 10px 30px;
+  flex-direction: column !important;
+  color: var(--primary-color);
+}
+
+.Categories_Card img {
+  filter: blur(5px);
+  opacity: 0.8;
+  background-color: black;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+  object-fit: cover;
+  -webkit-filter: blur(5px);
+}

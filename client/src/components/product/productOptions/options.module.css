@@ -1,0 +1,10 @@
+.Btn {
+  color: var(--ternary-color) !important;
+  border-color: var(--ternary-color) !important;
+}
+.Btn:hover {
+  border-color: var(--ternary-color);
+}
+.Btn_2 {
+  background-color: var(--ternary-color) !important;
+}
