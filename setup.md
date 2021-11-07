@@ -16,12 +16,12 @@ B. Setting up the Server Folder(Api)
 - run `npm i` to install node Modules
 - create a `.env` file
 - Add these keys to env file
-  - DB*SERVER=/\_Your Mongoose Server connection URl*/
-  - ACCESS*TOKEN_KEY=/\_Unique Token Key*/
-  - REFRESH*TOKEN_KEY=/\_Unique Token Key*/
+  - DB_SERVER=`Your Mongoose Server connection URl`
+  - ACCESS_TOKEN_KEY=`Unique Token Key`
+  - REFRESH_TOKEN_KEY=`Unique Token Key`
   - SaltRounds=10
-  - UserEmail= /\_Your Gamil Id\*/
-  - UserPassword= /\_Your Gmail Account Password\*/
+  - UserEmail= `Your_Gamil Id`
+  - UserPassword= `Your Gmail_Account_Password`
   - Host=smtp.gmail.com
   - Service=gmail
 
